@@ -5,7 +5,7 @@ describe('fizzbuzz', () => {
   test('Should print an Error if the recive not a number', () => {
     const numberValue = '3'
 
-    function fizzbuzzTest () {
+    const fizzbuzzTest = () => {
       fizzbuzz(numberValue)
     }
 
